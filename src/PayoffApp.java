@@ -37,9 +37,10 @@ public class PayoffApp {
 
         //reverseOrder() makes it so the order is reversed from default (acse -> desc )
         Collections.sort(aprs, Collections.reverseOrder());
-       //Collections.sort(cards); use comparable interface 
+       Collections.sort(cards, Collections.reverseOrder()); //use comparable interface 
 
         System.out.println(aprs);
+        System.out.println();
         System.out.println(cards);
     }
 }
